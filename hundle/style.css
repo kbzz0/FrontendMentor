@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: hsl(257, 40%, 49%) url("images/bg-desktop.svg") no-repeat top left fixed;
+}
+
+.logo{
+    display: grid;
+    padding: 50px 130px;
+}
+
+.logo img{
+    width: 200px;
+}
+
+.container{
+    padding: 200px 130px;
+    display: inline;
+    color: white;
+}
+
+.container h1{
+    font-size: 30px;
+    font-family: 'Popins', sans-serif;
+    margin-top: 70px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+
+.container p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'popins', sans-serif;
+    letter-spacing: 2px;
+    width: 1300px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.container img{
+    width: 650px;
+    margin-top: 40px;
+    float: left;
+    margin-left: 120px;
+    margin-right: 60px;
+}
+
+.container button{
+    padding: 20px 50px;
+    font-size: 18px;
+    font-family: 'Popins', sans-serif;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    color: hsl(257, 40%, 49%);
+    margin-top: 20px;
+    box-shadow:0 0 33px 0px hsla(0, 0%, 0%, 0.377);
+}
+
+.social-links{
+    color: white;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 100px;
+    padding:100px 60px 0px 0px;
+}
+
+i{
+    color: white;
+    padding: 8px 8px;
+    border: 1.1px solid white;
+    border-radius: 50%;
+    float: right;
+    margin-left: 20px;
+}
+
+.fa-facebook-f{
+    padding: 8px 11px;
+}
+
+.fa-instagram{
+    padding: 8px 9px;
+}
